@@ -1,0 +1,45 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Banco de dados local
+*.sqlite3
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Docker volumes e metadados
+docker/*.sql~
+docker/*.log
+docker/.env
+
+# Arquivos de teste
+*.coverage
+htmlcov/
+.coverage
+
+# Jupyter notebooks (se houver)
+.ipynb_checkpoints/
+
+# Sistemas Unix/macOS
+.DS_Store
+Thumbs.db
+
+# Testes e logs
+logs/
+*.db
+
+# Arquivos de configuração locais
+.env
+*.env

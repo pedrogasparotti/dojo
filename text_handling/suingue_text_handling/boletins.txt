@@ -1,0 +1,1 @@
+2025_1_claudinho = (nota_suingue, nota_harmonia, nota_improviso, nota_chachado)
