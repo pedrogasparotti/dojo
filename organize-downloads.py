@@ -7,6 +7,7 @@ from pathlib import Path
 # 4 Mover arquivos para as pastas correspondentes
 
 DOWNLOADS_PATH = Path.joinpath(Path.home(), "Downloads")
+DESKTOP_PATH = Path.joinpath(Path.home(), "Desktop")
 
 audios_ext = ['.mp3', '.wav']
 videos_ext = ['.mp4', '.mov', '.avi']
@@ -65,3 +66,4 @@ def organizar(diretorio):
 if __name__ == '__main__':
 
     organizar(DOWNLOADS_PATH)
+    organizar(DESKTOP_PATH)
